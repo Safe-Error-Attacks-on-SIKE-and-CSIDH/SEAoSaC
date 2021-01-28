@@ -1,0 +1,301 @@
+CSIDH 
+
+###################### key = {{0, 1}};
+
+{'valid': True, 'payload': CWbytearray(b'c5 09 00 00'), 'full_response': 'rC5090000\n', 'rv': 0}
+count : 0
+successes = 4, resets = 6, offset = -41.015625, width = 34.765625, ext_offset = 2
+count : 10
+successes = 1, resets = 8, offset = -40.625, width = 34.765625, ext_offset = 2
+count : 20
+successes = 1, resets = 8, offset = -40.234375, width = 34.765625, ext_offset = 2
+count : 30
+count : 40
+successes = 3, resets = 6, offset = -39.453125, width = 34.765625, ext_offset = 2
+count : 50
+successes = 7, resets = 2, offset = -39.0625, width = 34.765625, ext_offset = 2
+count : 60
+successes = 9, resets = 1, offset = -38.671875, width = 34.765625, ext_offset = 2
+count : 70
+successes = 6, resets = 4, offset = -38.28125, width = 34.765625, ext_offset = 2
+count : 80
+successes = 9, resets = 1, offset = -37.890625, width = 34.765625, ext_offset = 2
+count : 90
+successes = 4, resets = 5, offset = -37.5, width = 34.765625, ext_offset = 2
+count : 100
+successes = 8, resets = 1, offset = -37.109375, width = 34.765625, ext_offset = 2
+count : 110
+successes = 6, resets = 1, offset = -36.71875, width = 34.765625, ext_offset = 2
+count : 120
+successes = 5, resets = 3, offset = -36.328125, width = 34.765625, ext_offset = 2
+count : 130
+successes = 8, resets = 2, offset = -35.9375, width = 34.765625, ext_offset = 2
+count : 140
+successes = 7, resets = 3, offset = -35.546875, width = 34.765625, ext_offset = 2
+count : 150
+successes = 5, resets = 3, offset = -35.15625, width = 34.765625, ext_offset = 2
+count : 160
+successes = 7, resets = 3, offset = -34.765625, width = 34.765625, ext_offset = 2
+count : 170
+successes = 6, resets = 4, offset = -34.375, width = 34.765625, ext_offset = 2
+count : 180
+successes = 10, resets = 0, offset = -33.984375, width = 34.765625, ext_offset = 2
+count : 190
+successes = 8, resets = 2, offset = -33.59375, width = 34.765625, ext_offset = 2
+count : 200
+successes = 3, resets = 3, offset = -32.8125, width = 34.765625, ext_offset = 2
+count : 210
+successes = 1, resets = 2, offset = -32.421875, width = 34.765625, ext_offset = 2
+count : 220
+count : 230
+count : 240
+count : 250
+count : 260
+count : 270
+count : 280
+count : 290
+count : 300
+count : 310
+count : 320
+count : 330
+count : 340
+successes = 1, resets = 5, offset = -38.671875, width = 35.15625, ext_offset = 2
+count : 350
+successes = 6, resets = 4, offset = -38.28125, width = 35.15625, ext_offset = 2
+count : 360
+successes = 7, resets = 3, offset = -37.890625, width = 35.15625, ext_offset = 2
+count : 370
+successes = 9, resets = 1, offset = -37.5, width = 35.15625, ext_offset = 2
+count : 380
+successes = 9, resets = 1, offset = -37.109375, width = 35.15625, ext_offset = 2
+count : 390
+successes = 8, resets = 2, offset = -36.71875, width = 35.15625, ext_offset = 2
+count : 400
+successes = 7, resets = 3, offset = -36.328125, width = 35.15625, ext_offset = 2
+count : 410
+successes = 6, resets = 4, offset = -35.9375, width = 35.15625, ext_offset = 2
+count : 420
+successes = 10, resets = 0, offset = -35.546875, width = 35.15625, ext_offset = 2
+count : 430
+successes = 7, resets = 3, offset = -35.15625, width = 35.15625, ext_offset = 2
+count : 440
+successes = 8, resets = 2, offset = -34.765625, width = 35.15625, ext_offset = 2
+count : 450
+successes = 8, resets = 2, offset = -34.375, width = 35.15625, ext_offset = 2
+count : 460
+successes = 9, resets = 1, offset = -33.984375, width = 35.15625, ext_offset = 2
+count : 470
+successes = 8, resets = 2, offset = -33.59375, width = 35.15625, ext_offset = 2
+count : 480
+successes = 2, resets = 5, offset = -32.8125, width = 35.15625, ext_offset = 2
+count : 490
+successes = 1, resets = 1, offset = -32.421875, width = 35.15625, ext_offset = 2
+count : 500
+count : 510
+count : 520
+count : 530
+count : 540
+count : 550
+count : 560
+count : 570
+count : 580
+count : 590
+count : 600
+count : 610
+count : 620
+count : 630
+count : 640
+count : 650
+count : 660
+successes = 2, resets = 8, offset = -37.109375, width = 35.546875, ext_offset = 2
+count : 670
+successes = 6, resets = 4, offset = -36.71875, width = 35.546875, ext_offset = 2
+count : 680
+successes = 9, resets = 1, offset = -36.328125, width = 35.546875, ext_offset = 2
+count : 690
+successes = 8, resets = 2, offset = -35.9375, width = 35.546875, ext_offset = 2
+count : 700
+successes = 7, resets = 3, offset = -35.546875, width = 35.546875, ext_offset = 2
+count : 710
+successes = 9, resets = 1, offset = -35.15625, width = 35.546875, ext_offset = 2
+count : 720
+successes = 9, resets = 1, offset = -34.765625, width = 35.546875, ext_offset = 2
+count : 730
+successes = 10, resets = 0, offset = -34.375, width = 35.546875, ext_offset = 2
+count : 740
+successes = 10, resets = 0, offset = -33.984375, width = 35.546875, ext_offset = 2
+count : 750
+successes = 10, resets = 0, offset = -33.59375, width = 35.546875, ext_offset = 2
+count : 760
+successes = 10, resets = 0, offset = -32.8125, width = 35.546875, ext_offset = 2
+count : 770
+successes = 2, resets = 1, offset = -32.421875, width = 35.546875, ext_offset = 2
+count : 780
+successes = 1, resets = 0, offset = -32.03125, width = 35.546875, ext_offset = 2
+count : 790
+count : 800
+count : 810
+count : 820
+count : 830
+count : 840
+count : 850
+count : 860
+count : 870
+count : 880
+count : 890
+count : 900
+count : 910
+count : 920
+count : 930
+count : 940
+count : 950
+count : 960
+count : 970
+count : 980
+successes = 2, resets = 8, offset = -35.546875, width = 35.9375, ext_offset = 2
+count : 990
+successes = 1, resets = 9, offset = -35.15625, width = 35.9375, ext_offset = 2
+count : 1000
+successes = 4, resets = 6, offset = -34.765625, width = 35.9375, ext_offset = 2
+count : 1010
+successes = 2, resets = 8, offset = -34.375, width = 35.9375, ext_offset = 2
+count : 1020
+successes = 3, resets = 7, offset = -33.984375, width = 35.9375, ext_offset = 2
+count : 1030
+successes = 3, resets = 7, offset = -33.59375, width = 35.9375, ext_offset = 2
+count : 1040
+successes = 5, resets = 5, offset = -32.8125, width = 35.9375, ext_offset = 2
+count : 1050
+successes = 6, resets = 3, offset = -32.421875, width = 35.9375, ext_offset = 2
+count : 1060
+successes = 3, resets = 1, offset = -32.03125, width = 35.9375, ext_offset = 2
+count : 1070
+count : 1080
+count : 1090
+count : 1100
+count : 1110
+Done glitching
+total successes = 346, trials = 1120, ratio = 30.89%
+
+###################### key = {{-1, 1}};
+
+{'valid': True, 'payload': CWbytearray(b'c5 09 00 00'), 'full_response': 'rC5090000\n', 'rv': 0}
+count : 0
+count : 10
+count : 20
+count : 30
+count : 40
+count : 50
+count : 60
+count : 70
+count : 80
+count : 90
+count : 100
+count : 110
+successes = 1, resets = 6, offset = -36.71875, width = 34.765625, ext_offset = 2
+count : 120
+successes = 2, resets = 1, offset = -36.328125, width = 34.765625, ext_offset = 2
+count : 130
+count : 140
+count : 150
+count : 160
+count : 170
+count : 180
+successes = 1, resets = 2, offset = -33.984375, width = 34.765625, ext_offset = 2
+count : 190
+count : 200
+successes = 1, resets = 5, offset = -32.8125, width = 34.765625, ext_offset = 2
+count : 210
+count : 220
+count : 230
+count : 240
+count : 250
+count : 260
+count : 270
+count : 280
+count : 290
+count : 300
+count : 310
+count : 320
+count : 330
+count : 340
+count : 350
+count : 360
+count : 370
+count : 380
+count : 390
+count : 400
+count : 410
+count : 420
+count : 430
+count : 440
+count : 450
+count : 460
+count : 470
+count : 480
+count : 490
+successes = 1, resets = 3, offset = -32.421875, width = 35.15625, ext_offset = 2
+count : 500
+count : 510
+count : 520
+count : 530
+count : 540
+count : 550
+count : 560
+count : 570
+count : 580
+count : 590
+count : 600
+count : 610
+count : 620
+count : 630
+count : 640
+count : 650
+count : 660
+count : 670
+count : 680
+count : 690
+count : 700
+count : 710
+count : 720
+count : 730
+count : 740
+count : 750
+count : 760
+count : 770
+count : 780
+count : 790
+count : 800
+count : 810
+count : 820
+count : 830
+count : 840
+count : 850
+count : 860
+count : 870
+count : 880
+count : 890
+count : 900
+count : 910
+count : 920
+count : 930
+count : 940
+count : 950
+count : 960
+count : 970
+count : 980
+count : 990
+count : 1000
+count : 1010
+count : 1020
+count : 1030
+count : 1040
+count : 1050
+count : 1060
+count : 1070
+count : 1080
+count : 1090
+count : 1100
+count : 1110
+Done glitching
+total successes = 6, trials = 1120, ratio = 0.05%
