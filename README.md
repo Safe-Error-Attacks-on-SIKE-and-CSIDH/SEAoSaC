@@ -27,5 +27,4 @@ Code in this repository that does not indicate otherwise is placed in the public
 For the third party code see their licenses:
 - [csidhfi](https://github.com/csidhfi/csidhfi): [https://github.com/csidhfi/csidhfi/blob/master/LICENSE](https://github.com/csidhfi/csidhfi/blob/master/LICENSE)
 - [pqm4](https://github.com/mupq/pqm4): [https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)
-- [libopencm3](https://github.com/libopencm3/libopencm3): [https://github.com/libopencm3/libopencm3/blob/master/COPYING.LGPL3](https://github.com/newaetech/chipwhisperer/blob/develop/LICENSE.txt)
 - [chipwhisperer](https://github.com/newaetech/chipwhisperer): [https://github.com/newaetech/chipwhisperer/blob/develop/LICENSE.txt](https://github.com/newaetech/chipwhisperer/blob/develop/LICENSE.txt)
