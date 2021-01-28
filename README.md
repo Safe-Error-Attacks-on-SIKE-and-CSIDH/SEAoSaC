@@ -4,8 +4,9 @@ This repository contains auxiliary material for the paper "Safe-Error Attacks on
 
 Authors
  - [Fabio Campos](https://www.sopmac.de/) `<campos@sopmac.de>` 
- - Marcel Müller `<marcel@qpc.tu-darmstadt.de>`
  - Juliane Krämmer `<juliane@qpc.tu-darmstadt.de>`
+ - Marcel Müller `<marcel@qpc.tu-darmstadt.de>`
+
 
 <!-- The paper is available at https://eprint.iacr.org/2020/1005.pdf -->
 
