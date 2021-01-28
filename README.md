@@ -1,7 +1,5 @@
 # Safe-Error-Attacks-on-SIKE-and-CSIDH
 
-# Introduction 
-
 This repository contains auxiliary material for the paper "Safe-Error Attacks on SIKE and CSIDH".
 
 Authors
@@ -10,11 +8,6 @@ Authors
  - Juliane Krämmer `<juliane@qpc.tu-darmstadt.de>`
 
 <!-- The paper is available at https://eprint.iacr.org/2020/1005.pdf -->
-
-
-```
-git clone https://github.com/csidhfi/csidhfi
-```
 
 # Overview
 
