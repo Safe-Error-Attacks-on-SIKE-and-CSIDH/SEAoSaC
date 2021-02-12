@@ -69,7 +69,7 @@ def main(argv):
         #####################################################################        
 
         fw_path = PATH + "csidh512-{}.hex".format(PLATFORM)
-        # make PLATFORM=$1 CRYPTO_TARGET=NONE FUNC_SEL=GLITCH_INF
+
         cw.program_target(scope, prog, fw_path)
 
         scope.clock.clkgen_freq = 24E6
@@ -106,8 +106,6 @@ def main(argv):
         #print(val)
 
         gc = glitch.GlitchController(groups=["success", "reset", "normal"], parameters=["width", "offset", "ext_offset"])
-        # #gc.display_stats()
-
 
         scope.glitch.clk_src = "clkgen" # set glitch input clock
         scope.glitch.output = "glitch_only" # glitch_out = clk ^ glitch
@@ -145,7 +143,7 @@ def main(argv):
         gc.set_global_step(g_step)
 
         scope.adc.timeout = 5
-        #scope.adc.timeout = 60
+
         glitch_cnt = 0
 
         reboot_flush()
@@ -161,8 +159,7 @@ def main(argv):
                 scope.glitch.offset = glitch_setting[1]
                 scope.glitch.width = glitch_setting[0]
                 scope.glitch.ext_offset = glitch_setting[2]
-
-                #375,successes = 5, resets = 0, offset = -33.59375, width = 35.546875, ext_offset = 2            
+         
                 successes = 0
                 resets = 0
                 for i in range(NTRIAL):
@@ -170,16 +167,11 @@ def main(argv):
                     reboot_flush()
                     target.flush()
                     if scope.adc.state:
-                        # can detect crash here (fast) before timing out (slow)
-                        #print("Trigger still high!")
-
-                        #Device is slow to boot?
                         reboot_flush()
                         resets += 1
 
                     scope.arm()
 
-                    #Do glitch loop
                     target.write("g\n")
 
                     ret = scope.capture()
@@ -187,17 +179,12 @@ def main(argv):
 
                     val = target.simpleserial_read_witherrors('r', 1, glitch_timeout=10)#For loop check
 
-                    #print(val)
                     scope.io.glitch_hp = False
                     scope.io.glitch_hp = True
                     scope.io.glitch_lp = False
                     scope.io.glitch_lp = True
                     if ret:
-                        #print('Timeout - no trigger')
-                        #gc.add("reset", (scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset))
                         resets += 1
-
-                        #Device is slow to boot?
                         reboot_flush()
 
                     else:
@@ -207,13 +194,11 @@ def main(argv):
                         else:
                             if val['rv'] == 0: #for loop check
                                 successes += 1
-                            #else:
-                                #gc.add("normal", (scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset))
                 if successes > 0:
                     print("successes = {}, resets = {}, offset = {}, width = {}, ext_offset = {}".format(successes, resets, scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset))
                     total_successes += successes
-            #print("Done glitching")
-        else:       # SPOTS
+
+        else:
             for _ in range(100):
                 print("{},".format(glitch_cnt), end='')
                 sys.stdout.flush()
@@ -230,16 +215,10 @@ def main(argv):
                     reboot_flush()
                     target.flush()
                     if scope.adc.state:
-                        # can detect crash here (fast) before timing out (slow)
-                        #print("Trigger still high!")
-
-                        #Device is slow to boot?
                         reboot_flush()
                         resets += 1
 
                     scope.arm()
-
-                    #Do glitch loop
                     target.write("g\n")
 
                     ret = scope.capture()
@@ -253,11 +232,7 @@ def main(argv):
                     scope.io.glitch_lp = False
                     scope.io.glitch_lp = True
                     if ret:
-                        #print('Timeout - no trigger')
-                        #gc.add("reset", (scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset))
                         resets += 1
-
-                        #Device is slow to boot?
                         reboot_flush()
 
                     else:
@@ -267,14 +242,8 @@ def main(argv):
                         else:
                             if val['rv'] == 0: #for loop check
                                 successes += 1
-                            #else:
-                                #gc.add("normal", (scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset))
                 if successes > 0:
-                    #print("successes = {}, resets = {}, offset = {}, width = {}, ext_offset = {}".format(successes, resets, scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset))
                     total_successes += successes
-            #print("Done glitching")
-
-
 
         print("total successes = {}, trials = {}, ratio = {}".format(total_successes, glitch_cnt, total_successes/glitch_cnt))
 

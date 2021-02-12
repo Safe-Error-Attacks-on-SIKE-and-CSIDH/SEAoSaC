@@ -40,13 +40,9 @@ def main(argv):
         os.chdir(PATH)
         dateTime = datetime.now()
         OUTPUT_FILE = "SIKE_C_full_key_recovery_" + dateTime.strftime("%m_%d_%Y") + ".txt"
-        # file = open(OUTPUT_FILE,"a")
-        # file.write(dateTime.strftime("%m/%d/%Y, %H:%M:%S"))
-        # file.close()
 
         bad_guys = [31, 64, 95, 128, 159, 192]
         not_so_bad_guys = [0, 32, 63, 96, 127, 160, 191]
-        #bad_guys = [0, 31, 32, 63, 64, 95, 96, 127, 128, 159, 160, 191, 192]
 
         for bit in range(0, 218):
             prob = 0
@@ -96,8 +92,7 @@ def main(argv):
 
             #####################################################################        
 
-            fw_path = "/home/sopmac/Desktop/phd/git@github/overwrite_attack/software/chipwhisperer/SIKEp434/sikep434-{}.hex".format(PLATFORM)
-
+            fw_path = PATH + "sikep434-{}.hex".format(PLATFORM)
             cw.program_target(scope, prog, fw_path)
 
 
