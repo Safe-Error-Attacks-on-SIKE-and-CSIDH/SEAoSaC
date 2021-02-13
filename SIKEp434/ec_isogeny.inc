@@ -402,7 +402,7 @@ static void LADDER3PT(const f2elm_t xP, const f2elm_t xQ, const f2elm_t xPQ, con
     // trigger_low();
 }
 
-
+/* loop unrolled */
 static void LADDER3PT_ATTACK(const f2elm_t xP, const f2elm_t xQ, const f2elm_t xPQ, const digit_t* m, const unsigned int AliceOrBob, point_proj_t R, const f2elm_t A)
 {
     point_proj_t R0 = {0}, R2 = {0};
@@ -434,14 +434,11 @@ static void LADDER3PT_ATTACK(const f2elm_t xP, const f2elm_t xQ, const f2elm_t x
     fpcopy((digit_t*)&Montgomery_one, (digit_t*)R->Z);
     fpzero((digit_t*)(R->Z)[1]);
 
-    //################################################
+    /*################################################
     // in order to avoid compilation effects, 
-    //  we unrolled the first 11 cases of the loop.
-    // i-th case   : 0  1  2  3  4  5  6  7  8  9 10
-    // private key : 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0...
-    //################################################
+    //  we unrolled the whole loop.
+    //################################################*/
     
-
 //------------------------------------
 bit = (m[0 >> LOG2RADIX] >> (0 & (RADIX-1))) & 1;
 
