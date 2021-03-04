@@ -2,6 +2,11 @@
 
 This repository contains auxiliary material for the paper "Safe-Error Attacks on SIKE and CSIDH".
 
+Authors
+ - [Fabio Campos](https://www.sopmac.de/) `<campos@sopmac.de>` 
+ - Juliane Krämer `<juliane@qpc.tu-darmstadt.de>`
+ - Marcel Müller `<marcel@qpc.tu-darmstadt.de>`
+ 
 # Overview
 
 This archive contains the following 
