@@ -1,4 +1,4 @@
-# Safe-Error-Attacks-on-SIKE-and-CSIDH
+# Safe Error Attacks on SIKE and CSIDH
 
 This repository contains auxiliary material for the paper "Safe-Error Attacks on SIKE and CSIDH".
 
