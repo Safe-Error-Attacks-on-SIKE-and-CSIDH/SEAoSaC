@@ -5,7 +5,7 @@ This repository contains auxiliary material for the paper "[Safe-Error Attacks o
 Authors:
 - [Fabio Campos](https://www.sopmac.de/) `<campos@sopmac.de>` 
 - Juliane Krämer `<juliane@qpc.tu-darmstadt.de>`
-- Marcel Müller `<marcel@qpc.tu-darmstadt.de>`
+- Marcel Müller `<neikos@neikos.email>`
  
 # Overview
 
