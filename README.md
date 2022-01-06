@@ -10,9 +10,9 @@ Authors:
 # Overview
 
 This archive contains the following 
-- `CSIDH` contains a slightly modified CSIDH implementation from [here](https://github.com/csidhfi/csidhfi)
+- `CSIDH` contains a slightly modified CSIDH implementation from [here](https://github.com/csidhfi/csidhfi).
 
-- `SIKEp434` contains a slightly modified SIKEp434 implementation from [here](https://github.com/mupq/pqm4)
+- `SIKEp434` contains a slightly modified SIKEp434 implementation from [here](https://github.com/mupq/pqm4).
   
 - `attack` contains the attack scripts used in Section 5 of the paper. If you have a ChipWhisperer-Lite (CW1173) 32-bit basic board which features a STM32F303, feel free to reproduce the results presented in the paper.
 
