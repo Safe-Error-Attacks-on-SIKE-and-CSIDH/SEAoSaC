@@ -1,6 +1,6 @@
 # Safe Error Attacks on SIKE and CSIDH
 
-This repository contains auxiliary material for the paper "[Safe-Error Attacks on SIKE and CSIDH](https://eprint.iacr.org/2021/1132)".
+This repository contains auxiliary material for the paper "[Safe-Error Attacks on SIKE and CSIDH](https://eprint.iacr.org/2021/1132)" which was accepted to [SPACE 2021](https://cse.iitkgp.ac.in/conf/SPACE2021/).
 
 Authors:
 - [Fabio Campos](https://www.sopmac.de/) `<campos@sopmac.de>` 
